@@ -1,0 +1,8 @@
+version: "3.4"
+services:
+  express:
+  container_name: expressonay
+    build: .
+    image: expressonay
+    ports:
+      - 80:3000
